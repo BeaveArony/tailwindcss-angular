@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::placeholder {
+  color: gray;
+}
+
+.image {
+  background-image: url(https://angular.io/assets/images/logos/angular/angular.svg);
+}
+@media (min-resolution: 2dppx) {
+  .image {
+    background-image: url(https://tailwindcss.com/android-chrome-512x512.png);
+  }
+}
